@@ -12,11 +12,13 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
 
-    .navbar-nav .nav-link {
+    .navbar-nav a {
         font-size: 16px;
         line-height: 19px;
         color: $linkColor;
         text-decoration: none;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
 
         &:hover {
             color: $ctaColor;
@@ -376,7 +378,7 @@ h {
         }
     }
 
-    & .sale_geometry-left {
+    &_geometry-left {
         bottom: -270px;
         padding: 0;
         margin-top: -260px;
@@ -643,11 +645,6 @@ footer {
     padding-bottom: 20px;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
-}
-
 
 //MEDIA
 
@@ -750,7 +747,7 @@ footer {
         margin-top: 0;
     }
 
-    .navbar-expand-lg .navbar-nav .nav-link {
+    .navbar-nav a {
         padding-right: 1.5rem;
         padding-left: 1.5rem;
     }
@@ -958,7 +955,7 @@ footer {
         width: 480px;
     }
 
-    .navbar-expand-lg .navbar-nav .nav-link {
+    .header .navbar-nav a {
         padding-right: 1rem;
         padding-left: 1rem;
     }
