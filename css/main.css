@@ -354,7 +354,7 @@ h2 {
         background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' viewBox='0 0 1621 124' height='124' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1621 0L0.5 122L1621 123.352V0Z' fill='%230D101F'/%3E%3C/svg%3E%0A") top right no-repeat;
         background-size: cover; }
   /* line 379, ../scss/main.scss */
-  .sale .sale_geometry-left {
+  .sale_geometry-left {
     bottom: -270px;
     padding: 0;
     margin-top: -260px;
@@ -365,7 +365,7 @@ h2 {
     background-size: 90% auto;
     background-position: left; }
     /* line 390, ../scss/main.scss */
-    .sale .sale_geometry-left__wrapper {
+    .sale_geometry-left__wrapper {
       padding-top: 90px;
       padding-bottom: 90px;
       background-color: #465d8b;
@@ -380,7 +380,7 @@ h2 {
               align-items: center;
       position: relative; }
       /* line 400, ../scss/main.scss */
-      .sale .sale_geometry-left__wrapper::before {
+      .sale_geometry-left__wrapper::before {
         content: '';
         display: block;
         height: 100%;
@@ -392,10 +392,10 @@ h2 {
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px; }
     /* line 414, ../scss/main.scss */
-    .sale .sale_geometry-left .container {
+    .sale_geometry-left .container {
       position: relative; }
       /* line 417, ../scss/main.scss */
-      .sale .sale_geometry-left .container::before {
+      .sale_geometry-left .container::before {
         content: '';
         display: block;
         background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' height='124' viewBox='0 0 1621 124' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0L1620.5 122L0 123.352V0Z' fill='%23465d8b' /%3E%3C/svg%3E%0A") top left no-repeat;
@@ -406,7 +406,7 @@ h2 {
         position: absolute;
         background-size: cover; }
       /* line 429, ../scss/main.scss */
-      .sale .sale_geometry-left .container::after {
+      .sale_geometry-left .container::after {
         content: '';
         display: block;
         background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' height='124' viewBox='0 0 1621 124' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 123.352L1620.5 1.35156L0 -4.57764e-05V123.352Z' fill='%23465d8b' /%3E%3C/svg%3E%0A") top left no-repeat;
