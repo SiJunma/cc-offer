@@ -297,72 +297,136 @@ h2 {
       border-radius: 20px;
       z-index: -1; }
   /* line 317, ../scss/main.scss */
-  .sale_geometry-left {
-    padding: 0;
-    bottom: -270px;
-    padding: 0;
-    margin-top: -320px;
-    margin-bottom: 340px;
-    position: relative;
-    background-image: linear-gradient(157deg, #405580 0%, #465d8b 52%, transparent 52%);
-    background-repeat: no-repeat;
-    background-size: 90% auto;
-    background-position: left; }
-    /* line 328, ../scss/main.scss */
-    .sale_geometry-left .container {
-      padding-top: 90px;
-      padding-bottom: 90px;
-      background-image: linear-gradient(67deg, #506B9F -23.69%, #171d33 109.19%);
-      position: relative; }
-      /* line 334, ../scss/main.scss */
-      .sale_geometry-left .container::before {
-        content: '';
-        display: block;
-        height: 100%;
-        width: 91px;
-        right: -90px;
-        position: absolute;
-        background-image: linear-gradient(182.23deg, #1C233C 0.27%, #212B47 100.58%);
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px; }
-  /* line 348, ../scss/main.scss */
   .sale_geometry-right {
     padding: 0;
-    margin-top: 120px;
+    margin-top: 150px;
+    margin-bottom: 100px;
     position: relative;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #0D101F));
     background-image: linear-gradient(90deg, transparent 50%, #0D101F 50%);
     background-repeat: no-repeat;
     background-size: 90% auto;
     background-position: right; }
-    /* line 363, ../scss/main.scss */
-    .sale_geometry-right .container {
+    /* line 327, ../scss/main.scss */
+    .sale_geometry-right__wrapper {
       padding-top: 90px;
       padding-bottom: 90px;
       background-color: #0D101F;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       position: relative; }
-      /* line 369, ../scss/main.scss */
-      .sale_geometry-right .container::before {
+      /* line 335, ../scss/main.scss */
+      .sale_geometry-right__wrapper::before {
         content: '';
         display: block;
         height: 100%;
         width: 91px;
         left: -90px;
+        top: 0;
         position: absolute;
         background-color: #0D101F;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px; }
-  /* line 398, ../scss/main.scss */
+    /* line 349, ../scss/main.scss */
+    .sale_geometry-right .container {
+      position: relative; }
+      /* line 352, ../scss/main.scss */
+      .sale_geometry-right .container::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 171%;
+        height: 124px;
+        bottom: -121px;
+        right: -69%;
+        background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' viewBox='0 0 1621 124' fill='none' height='124'  xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1620.5 123.352L0 1.35161L1620.5 0V123.352Z' fill='%230D101F'/%3E%3C/svg%3E%0A") top right no-repeat;
+        background-size: cover; }
+      /* line 364, ../scss/main.scss */
+      .sale_geometry-right .container::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 171%;
+        height: 124px;
+        top: -121px;
+        right: -69%;
+        background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' viewBox='0 0 1621 124' height='124' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1621 0L0.5 122L1621 123.352V0Z' fill='%230D101F'/%3E%3C/svg%3E%0A") top right no-repeat;
+        background-size: cover; }
+  /* line 379, ../scss/main.scss */
+  .sale .sale_geometry-left {
+    bottom: -270px;
+    padding: 0;
+    margin-top: -260px;
+    margin-bottom: 340px;
+    position: relative;
+    background-image: linear-gradient(157deg, #465d8b 0%, #465d8b 52%, transparent 52%);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: left; }
+    /* line 390, ../scss/main.scss */
+    .sale .sale_geometry-left__wrapper {
+      padding-top: 90px;
+      padding-bottom: 90px;
+      background-color: #465d8b;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative; }
+      /* line 400, ../scss/main.scss */
+      .sale .sale_geometry-left__wrapper::before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 91px;
+        right: -90px;
+        top: 0;
+        position: absolute;
+        background-color: #465d8b;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; }
+    /* line 414, ../scss/main.scss */
+    .sale .sale_geometry-left .container {
+      position: relative; }
+      /* line 417, ../scss/main.scss */
+      .sale .sale_geometry-left .container::before {
+        content: '';
+        display: block;
+        background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' height='124' viewBox='0 0 1621 124' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0L1620.5 122L0 123.352V0Z' fill='%23465d8b' /%3E%3C/svg%3E%0A") top left no-repeat;
+        width: 171%;
+        height: 124px;
+        top: -121px;
+        left: -69%;
+        position: absolute;
+        background-size: cover; }
+      /* line 429, ../scss/main.scss */
+      .sale .sale_geometry-left .container::after {
+        content: '';
+        display: block;
+        background: url("data:image/svg+xml,%3Csvg preserveAspectRatio='none' height='124' viewBox='0 0 1621 124' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 123.352L1620.5 1.35156L0 -4.57764e-05V123.352Z' fill='%23465d8b' /%3E%3C/svg%3E%0A") top left no-repeat;
+        width: 171%;
+        height: 124px;
+        bottom: -121px;
+        left: -69%;
+        position: absolute;
+        background-size: cover; }
+  /* line 444, ../scss/main.scss */
   .sale_list-check ul {
     list-style: none;
     margin-top: 30px;
     padding: 0; }
-    /* line 403, ../scss/main.scss */
+    /* line 449, ../scss/main.scss */
     .sale_list-check ul li {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      /* line 405, ../scss/main.scss */
+      /* line 451, ../scss/main.scss */
       .sale_list-check ul li::before {
         content: '';
         display: block;
@@ -375,26 +439,26 @@ h2 {
         background-repeat: no-repeat;
         background-size: contain;
         background-image: url("data:image/svg+xml,%3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.8596 10.253C21.836 9.27663 21.8359 7.69384 20.8596 6.71751C19.8833 5.74119 18.3005 5.7411 17.3241 6.71751L8.48524 15.5563L5.30326 12.3744C4.32693 11.398 2.74414 11.398 1.76772 12.3744C0.791306 13.3508 0.791393 14.9336 1.76772 15.9099L6.71747 20.8596C7.6938 21.836 9.27659 21.8361 10.253 20.8596L20.8596 10.253Z' fill='%2368BBE4'/%3E%3C/svg%3E%0A"); }
-      /* line 418, ../scss/main.scss */
+      /* line 464, ../scss/main.scss */
       .sale_list-check ul li:not(:last-child) {
         margin-bottom: 15px; }
-  /* line 425, ../scss/main.scss */
+  /* line 471, ../scss/main.scss */
   .sale_bg {
     background-image: url("../img/gr-bg-1.png");
     background-repeat: no-repeat;
     background-position: center center; }
 
-/* line 432, ../scss/main.scss */
+/* line 478, ../scss/main.scss */
 .courses {
   text-align: center;
   padding-bottom: 105px;
   padding-top: 100px; }
-  /* line 437, ../scss/main.scss */
+  /* line 483, ../scss/main.scss */
   .courses.courses_bg {
     background-image: url("../img/gr-bg-3.png");
     background-repeat: no-repeat;
     background-position: right top; }
-  /* line 443, ../scss/main.scss */
+  /* line 489, ../scss/main.scss */
   .courses h2 {
     font-weight: bold;
     font-size: 54px;
@@ -402,11 +466,11 @@ h2 {
     margin-bottom: 30px;
     color: #323A45;
     max-width: 900px; }
-  /* line 452, ../scss/main.scss */
+  /* line 498, ../scss/main.scss */
   .courses p {
     font-size: 25px;
     margin: 0; }
-  /* line 457, ../scss/main.scss */
+  /* line 503, ../scss/main.scss */
   .courses ul {
     margin-top: 120px;
     display: -webkit-box;
@@ -417,7 +481,7 @@ h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    /* line 464, ../scss/main.scss */
+    /* line 510, ../scss/main.scss */
     .courses ul li {
       color: white;
       width: 420px;
@@ -428,26 +492,26 @@ h2 {
       padding-bottom: 30px;
       -webkit-box-sizing: border-box;
               box-sizing: border-box; }
-      /* line 474, ../scss/main.scss */
+      /* line 520, ../scss/main.scss */
       .courses ul li small {
         color: #A0D1FF; }
-      /* line 478, ../scss/main.scss */
+      /* line 524, ../scss/main.scss */
       .courses ul li h3 {
         margin-top: -65px;
         font-size: 24px;
         font-weight: bold;
         line-height: 140%; }
-      /* line 485, ../scss/main.scss */
+      /* line 531, ../scss/main.scss */
       .courses ul li:not(:last-child) {
         margin-right: 65px;
         background-image: linear-gradient(229.4deg, #49DBB8 9.13%, #10AFA6 80.96%); }
-      /* line 490, ../scss/main.scss */
+      /* line 536, ../scss/main.scss */
       .courses ul li img {
         position: relative;
         top: -85px;
         width: 100%;
         height: auto; }
-  /* line 500, ../scss/main.scss */
+  /* line 546, ../scss/main.scss */
   .courses.courses_h-pre-img h2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -459,7 +523,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    /* line 504, ../scss/main.scss */
+    /* line 550, ../scss/main.scss */
     .courses.courses_h-pre-img h2::before {
       display: block;
       content: '';
@@ -470,31 +534,31 @@ h2 {
       height: 180px;
       margin-bottom: -35px; }
 
-/* line 518, ../scss/main.scss */
+/* line 564, ../scss/main.scss */
 .bg-dark-gr {
   color: white;
   background-image: linear-gradient(65.89deg, #506B9F -23.69%, #171d33 109.19%);
   position: relative;
   z-index: 0;
   overflow: hidden; }
-  /* line 525, ../scss/main.scss */
+  /* line 571, ../scss/main.scss */
   .bg-dark-gr li {
     background-image: linear-gradient(229.4deg, #82C3FE 9.13%, #529BDF 80.96%); }
-  /* line 529, ../scss/main.scss */
+  /* line 575, ../scss/main.scss */
   .bg-dark-gr h2 {
     color: white;
     max-width: 760px; }
-  /* line 534, ../scss/main.scss */
+  /* line 580, ../scss/main.scss */
   .bg-dark-gr h1 {
     color: white;
     text-align: center; }
-  /* line 539, ../scss/main.scss */
+  /* line 585, ../scss/main.scss */
   .bg-dark-gr .offer__desc {
     font-weight: normal;
     font-size: 21px;
     line-height: 140%;
     color: #D3E6F8; }
-  /* line 546, ../scss/main.scss */
+  /* line 592, ../scss/main.scss */
   .bg-dark-gr::before {
     content: '';
     display: block;
@@ -508,7 +572,7 @@ h2 {
     background-size: cover;
     top: 0;
     left: 0; }
-  /* line 561, ../scss/main.scss */
+  /* line 607, ../scss/main.scss */
   .bg-dark-gr::after {
     content: '';
     display: block;
@@ -523,11 +587,11 @@ h2 {
     bottom: 0;
     right: 0; }
 
-/* line 577, ../scss/main.scss */
+/* line 623, ../scss/main.scss */
 footer {
   padding-top: 25px;
   padding-bottom: 20px; }
-  /* line 578, ../scss/main.scss */
+  /* line 624, ../scss/main.scss */
   footer .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -538,165 +602,165 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  /* line 584, ../scss/main.scss */
+  /* line 630, ../scss/main.scss */
   footer .footer__copy {
     font-size: 16px;
     line-height: 19px;
     color: #9CA4B8;
     text-align: right; }
-  /* line 591, ../scss/main.scss */
+  /* line 637, ../scss/main.scss */
   footer .footer__logo img {
     width: 100%;
     height: auto; }
 
-/* line 600, ../scss/main.scss */
+/* line 646, ../scss/main.scss */
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 2.5rem;
   padding-left: 2.5rem; }
 
 @media screen and (max-width: 1976px) {
-  /* line 609, ../scss/main.scss */
+  /* line 655, ../scss/main.scss */
   .header-bg::after {
     width: 510px;
     top: 105px; }
 
-  /* line 614, ../scss/main.scss */
+  /* line 660, ../scss/main.scss */
   .header-bg::before {
     width: 800px; } }
 @media screen and (max-width: 1600px) {
-  /* line 621, ../scss/main.scss */
+  /* line 667, ../scss/main.scss */
   .sale_notFullBg {
     background-image: linear-gradient(318.76deg, #E1EFFF 4.58%, rgba(225, 239, 255, 0) 89.01%); }
 
-  /* line 625, ../scss/main.scss */
+  /* line 671, ../scss/main.scss */
   .sale_notFullBg::before {
     display: none; }
 
-  /* line 629, ../scss/main.scss */
+  /* line 675, ../scss/main.scss */
   .header-bg::after {
     width: 470px;
     right: -70px; }
 
-  /* line 634, ../scss/main.scss */
+  /* line 680, ../scss/main.scss */
   .header-bg::before {
     width: 660px;
     left: -260px; }
 
-  /* line 639, ../scss/main.scss */
+  /* line 685, ../scss/main.scss */
   .section-gradient {
     overflow: hidden; }
 
-  /* line 643, ../scss/main.scss */
+  /* line 689, ../scss/main.scss */
   .section-bg {
     overflow: visible; }
 
-  /* line 647, ../scss/main.scss */
-  .sale_geometry-right {
-    margin-top: 90px; }
-
-  /* line 651, ../scss/main.scss */
-  .sale_geometry-left {
-    margin-bottom: 60px;
-    margin-top: 0;
-    position: static; }
-
-  /* line 657, ../scss/main.scss */
+  /* line 693, ../scss/main.scss */
   .courses.courses_h-pre-img {
     padding-top: 60px; } }
+@media screen and (max-width: 1500px) {
+  /* line 699, ../scss/main.scss */
+  .sale .sale_geometry-right__wrapper::before,
+  .sale .sale_geometry-left__wrapper::before {
+    display: none; }
+
+  /* line 704, ../scss/main.scss */
+  .sale_geometry-left__wrapper,
+  .sale_geometry-right__wrapper {
+    background: none; }
+
+  /* line 709, ../scss/main.scss */
+  .sale_geometry-right {
+    background-color: #0D101F; }
+
+  /* line 713, ../scss/main.scss */
+  .sale_geometry-left {
+    background-color: #465d8b;
+    background-size: 100%; } }
 @media screen and (max-width: 1400px) {
-  /* line 663, ../scss/main.scss */
+  /* line 720, ../scss/main.scss */
   .header-bg::before {
     width: 580px;
     left: -240px;
     top: 230px; }
 
-  /* line 669, ../scss/main.scss */
+  /* line 726, ../scss/main.scss */
   .header-bg::after {
     width: 420px;
     right: -70px; } }
 @media screen and (max-width: 1399px) {
-  /* line 678, ../scss/main.scss */
+  /* line 735, ../scss/main.scss */
+  .sale_dark-gradient {
+    background-image: linear-gradient(57deg, #2a3e66 13%, #3a507c 109%);
+    background-color: transparent; }
+
+  /* line 740, ../scss/main.scss */
+  .sale_dark {
+    background-color: #0D101F; }
+
+  /* line 744, ../scss/main.scss */
   .sale_geometry-left {
     background-image: none;
-    background-color: #0D101F;
+    background-color: #465d8b;
     background-size: 100%;
     background-size: 100%;
     position: static;
     margin-top: 0; }
 
-  /* line 687, ../scss/main.scss */
-  .sale_geometry-left .container {
-    background-image: none; }
-
-  /* line 691, ../scss/main.scss */
-  .sale_geometry-left .container::before,
-  .sale_geometry-right .container::before {
-    display: none; }
-
-  /* line 696, ../scss/main.scss */
-  .sale_dark-gradient {
-    background-image: linear-gradient(57deg, #2a3e66 13%, #3a507c 109%);
-    background-color: transparent; }
-
-  /* line 701, ../scss/main.scss */
-  .sale_dark {
-    background-color: #0D101F; }
-
-  /* line 705, ../scss/main.scss */
+  /* line 753, ../scss/main.scss */
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem; } }
 @media screen and (max-width: 1300px) {
-  /* line 712, ../scss/main.scss */
+  /* line 760, ../scss/main.scss */
   .header-bg::before {
     width: 500px;
     left: -230px;
     top: 310px; }
 
-  /* line 718, ../scss/main.scss */
+  /* line 766, ../scss/main.scss */
   .header-bg::after {
     width: 370px; }
 
-  /* line 722, ../scss/main.scss */
+  /* line 770, ../scss/main.scss */
   .sale_notFullBg {
     margin-bottom: 0; }
 
-  /* line 726, ../scss/main.scss */
+  /* line 774, ../scss/main.scss */
   .sale h2 {
     font-size: 44px; }
 
-  /* line 730, ../scss/main.scss */
+  /* line 778, ../scss/main.scss */
   .sale_list-check ul li {
     font-size: 20px; }
-    /* line 733, ../scss/main.scss */
+    /* line 781, ../scss/main.scss */
     .sale_list-check ul li::before {
       width: 16px; }
 
-  /* line 738, ../scss/main.scss */
+  /* line 786, ../scss/main.scss */
   .courses h2 {
     font-size: 44px; }
 
-  /* line 742, ../scss/main.scss */
+  /* line 790, ../scss/main.scss */
   .sale_caps h2 {
     font-size: 36px; }
 
-  /* line 746, ../scss/main.scss */
+  /* line 794, ../scss/main.scss */
   .sale .sale__offer p {
     font-size: 22px; } }
 @media screen and (max-width: 1072px) {
-  /* line 753, ../scss/main.scss */
+  /* line 801, ../scss/main.scss */
   .header-bg::before,
   .header-bg::after {
     display: none; }
 
-  /* line 758, ../scss/main.scss */
+  /* line 806, ../scss/main.scss */
   .courses ul li:not(:last-child) {
     margin-right: 35px; }
 
-  /* line 763, ../scss/main.scss */
+  /* line 811, ../scss/main.scss */
   header .navbar-toggler {
     border: none; }
-  /* line 767, ../scss/main.scss */
+  /* line 815, ../scss/main.scss */
   header .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -705,20 +769,48 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 23px; } }
+    margin-top: 23px; }
+
+  /* line 822, ../scss/main.scss */
+  .sale_geometry-left .container::before,
+  .sale_geometry-left .container::after,
+  .sale_geometry-right .container::before,
+  .sale_geometry-right .container::after {
+    display: none; }
+
+  /* line 829, ../scss/main.scss */
+  .sale {
+    padding-bottom: 130px; }
+
+  /* line 833, ../scss/main.scss */
+  .sale_geometry-left {
+    padding: 0; }
+
+  /* line 837, ../scss/main.scss */
+  .sale_geometry-right {
+    padding: 0;
+    margin-bottom: 40px; } }
 @media screen and (max-width: 991px) {
-  /* line 776, ../scss/main.scss */
+  /* line 844, ../scss/main.scss */
   .sale {
     padding-top: 60px;
     padding-bottom: 80px; }
-    /* line 777, ../scss/main.scss */
+    /* line 845, ../scss/main.scss */
     .sale .container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
       padding: 0; }
-    /* line 785, ../scss/main.scss */
+    /* line 850, ../scss/main.scss */
+    .sale .sale_geometry-right__wrapper,
+    .sale .sale_geometry-left__wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding: 0; }
+    /* line 859, ../scss/main.scss */
     .sale .sale__presentation,
     .sale .sale__offer {
       width: 100%;
@@ -737,145 +829,145 @@ footer {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      /* line 797, ../scss/main.scss */
+      /* line 871, ../scss/main.scss */
       .sale .sale__presentation img,
       .sale .sale__offer img {
         width: 50%; }
-    /* line 802, ../scss/main.scss */
+    /* line 876, ../scss/main.scss */
     .sale .sale__presentation {
       -webkit-box-ordinal-group: 2;
           -ms-flex-order: 1;
               order: 1; }
-    /* line 806, ../scss/main.scss */
+    /* line 880, ../scss/main.scss */
     .sale .sale__offer {
       -webkit-box-ordinal-group: 1;
           -ms-flex-order: 0;
               order: 0; }
-    /* line 810, ../scss/main.scss */
+    /* line 884, ../scss/main.scss */
     .sale .sale__offer p {
       margin: 0; }
 
-  /* line 815, ../scss/main.scss */
+  /* line 889, ../scss/main.scss */
   .courses ul li h3 {
     font-size: 20px; }
 
-  /* line 819, ../scss/main.scss */
+  /* line 893, ../scss/main.scss */
   .courses ul li small {
     font-size: 17px; }
 
-  /* line 823, ../scss/main.scss */
+  /* line 897, ../scss/main.scss */
   .sale_list-check ul {
     text-align: left; }
 
-  /* line 827, ../scss/main.scss */
+  /* line 901, ../scss/main.scss */
   .sale_notFullBg {
     margin-top: 0; }
 
-  /* line 831, ../scss/main.scss */
+  /* line 905, ../scss/main.scss */
   footer {
     padding-top: 17px;
     padding-bottom: 11px; }
-    /* line 835, ../scss/main.scss */
+    /* line 909, ../scss/main.scss */
     footer .footer__wrapper {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
-    /* line 839, ../scss/main.scss */
+    /* line 913, ../scss/main.scss */
     footer .footer__copy {
       text-align: center; }
-    /* line 843, ../scss/main.scss */
+    /* line 917, ../scss/main.scss */
     footer .footer__logo {
       margin-bottom: 10px; }
 
-  /* line 848, ../scss/main.scss */
+  /* line 922, ../scss/main.scss */
   .sale .btn {
     margin-top: 10px; } }
 @media screen and (max-width: 767px) {
-  /* line 854, ../scss/main.scss */
+  /* line 928, ../scss/main.scss */
   .sale_geometry-left {
     margin-bottom: 0; }
 
-  /* line 858, ../scss/main.scss */
+  /* line 932, ../scss/main.scss */
   .courses ul li h3 {
     font-size: 16px; }
 
-  /* line 862, ../scss/main.scss */
+  /* line 936, ../scss/main.scss */
   .sale h2 {
     font-size: 34px; }
 
-  /* line 866, ../scss/main.scss */
+  /* line 940, ../scss/main.scss */
   .courses h2 {
     font-size: 34px; }
 
-  /* line 870, ../scss/main.scss */
+  /* line 944, ../scss/main.scss */
   .sale_caps h2 {
     font-size: 32px; }
 
-  /* line 874, ../scss/main.scss */
+  /* line 948, ../scss/main.scss */
   .sale .sale__offer small {
     font-size: 20px; }
 
-  /* line 878, ../scss/main.scss */
+  /* line 952, ../scss/main.scss */
   .courses p {
     font-size: 22px;
     margin: 0; }
 
-  /* line 883, ../scss/main.scss */
+  /* line 957, ../scss/main.scss */
   .courses.courses_h-pre-img h2::before {
     width: 480px; }
 
-  /* line 887, ../scss/main.scss */
+  /* line 961, ../scss/main.scss */
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem; } }
 @media screen and (max-width: 575px) {
-  /* line 894, ../scss/main.scss */
+  /* line 968, ../scss/main.scss */
   .sale,
   .courses {
     padding-left: 10px;
     padding-right: 10px; }
 
-  /* line 900, ../scss/main.scss */
+  /* line 974, ../scss/main.scss */
   .courses ul li:not(:last-child) {
     margin-right: 20px; }
 
-  /* line 904, ../scss/main.scss */
+  /* line 978, ../scss/main.scss */
   .sale_notFullBg {
     padding-top: 40px;
     padding-bottom: 60px; }
 
-  /* line 909, ../scss/main.scss */
+  /* line 983, ../scss/main.scss */
   footer .footer__copy {
     font-size: 13px; }
 
-  /* line 914, ../scss/main.scss */
+  /* line 988, ../scss/main.scss */
   .courses.courses_h-pre-img h2::before {
     width: 90%; }
 
-  /* line 918, ../scss/main.scss */
+  /* line 992, ../scss/main.scss */
   .courses ul li {
     padding-bottom: 15px;
     width: 100%; }
 
-  /* line 923, ../scss/main.scss */
+  /* line 997, ../scss/main.scss */
   h1 {
     font-size: 83px; }
 
-  /* line 927, ../scss/main.scss */
+  /* line 1001, ../scss/main.scss */
   .offer .offer__desc {
     font-size: 20px; }
 
-  /* line 931, ../scss/main.scss */
+  /* line 1005, ../scss/main.scss */
   .counter .counter__title {
     font-size: 20px; }
 
-  /* line 935, ../scss/main.scss */
+  /* line 1009, ../scss/main.scss */
   .counter ul li {
     width: 95px;
     height: 95px; }
 
-  /* line 940, ../scss/main.scss */
+  /* line 1014, ../scss/main.scss */
   .offer .offer__wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -884,46 +976,50 @@ footer {
         -ms-flex-align: center;
             align-items: center; }
 
-  /* line 945, ../scss/main.scss */
+  /* line 1019, ../scss/main.scss */
   .offer__wrapper .btn {
     max-width: none;
     width: 370px;
     margin: 0 auto; } }
 @media screen and (max-width: 480px) {
-  /* line 954, ../scss/main.scss */
+  /* line 1027, ../scss/main.scss */
+  .offer {
+    margin-top: 45px; }
+
+  /* line 1031, ../scss/main.scss */
   .header {
     padding-top: 20px;
     padding-bottom: 20px; }
 
-  /* line 959, ../scss/main.scss */
+  /* line 1036, ../scss/main.scss */
   .courses ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  /* line 963, ../scss/main.scss */
+  /* line 1040, ../scss/main.scss */
   .courses ul li:not(:last-child) {
     margin: 0;
     margin-bottom: 100px; }
 
-  /* line 968, ../scss/main.scss */
+  /* line 1045, ../scss/main.scss */
   .courses ul li h3 {
     font-size: 18px; }
 
-  /* line 972, ../scss/main.scss */
+  /* line 1049, ../scss/main.scss */
   .sale h2 {
     font-size: 30px; }
 
-  /* line 976, ../scss/main.scss */
+  /* line 1053, ../scss/main.scss */
   .sale .sale__offer p {
     font-size: 20px; }
 
-  /* line 980, ../scss/main.scss */
+  /* line 1057, ../scss/main.scss */
   .sale .sale__presentation img, .sale .sale__offer img {
     width: 80%; }
 
-  /* line 984, ../scss/main.scss */
+  /* line 1061, ../scss/main.scss */
   header .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -931,66 +1027,70 @@ footer {
             flex-direction: column;
     text-align: center; }
 
-  /* line 989, ../scss/main.scss */
+  /* line 1066, ../scss/main.scss */
   .sale .btn,
   .courses .btn {
     width: 100%; }
 
-  /* line 994, ../scss/main.scss */
+  /* line 1071, ../scss/main.scss */
   .sale .sale__presentation iframe {
     width: 100%;
-    height: 200px; } }
+    height: 200px; }
+
+  /* line 1076, ../scss/main.scss */
+  .header-bg {
+    background-image: none; } }
 @media screen and (max-width: 397px) {
-  /* line 1002, ../scss/main.scss */
+  /* line 1083, ../scss/main.scss */
   .counter .counter__value {
     font-size: 30px; }
 
-  /* line 1006, ../scss/main.scss */
+  /* line 1087, ../scss/main.scss */
   .counter .counter__period {
     font-size: 15px; }
 
-  /* line 1010, ../scss/main.scss */
+  /* line 1091, ../scss/main.scss */
   .counter ul li {
     width: 25%;
     height: 80px; }
 
-  /* line 1015, ../scss/main.scss */
+  /* line 1096, ../scss/main.scss */
   .offer__wrapper .btn {
     width: 100%; }
 
-  /* line 1019, ../scss/main.scss */
+  /* line 1100, ../scss/main.scss */
   .offer .offer__desc {
     font-size: 18px; }
 
-  /* line 1023, ../scss/main.scss */
+  /* line 1104, ../scss/main.scss */
   h1 {
     font-size: 70px; }
 
-  /* line 1027, ../scss/main.scss */
+  /* line 1108, ../scss/main.scss */
   .offer h1 span {
     font-size: 26px; }
 
-  /* line 1031, ../scss/main.scss */
+  /* line 1112, ../scss/main.scss */
   .sale h2 {
     font-size: 25px; }
 
-  /* line 1035, ../scss/main.scss */
+  /* line 1116, ../scss/main.scss */
   .courses h2 {
     font-size: 30px; } }
 @media screen and (max-width: 361px) {
-  /* line 1041, ../scss/main.scss */
+  /* line 1122, ../scss/main.scss */
   .sale h2 {
     font-size: 22px; }
 
-  /* line 1045, ../scss/main.scss */
+  /* line 1126, ../scss/main.scss */
   .courses h2 {
     font-size: 22px; }
 
-  /* line 1049, ../scss/main.scss */
+  /* line 1130, ../scss/main.scss */
   .courses p {
     font-size: 16px; }
 
-  /* line 1053, ../scss/main.scss */
+  /* line 1134, ../scss/main.scss */
   .sale .sale__offer p {
     font-size: 16px; } }
 
